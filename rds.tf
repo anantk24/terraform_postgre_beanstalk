@@ -18,7 +18,7 @@ resource "aws_rds_cluster" "postgresql-root" {
   enable_global_write_forwarding = false
   skip_final_snapshot            = true
 
-  database_name      = "foundation"
-  master_username    = "apilayer"
-  master_password    = "apilayer"
+  database_name      = "db"
+  master_username    = "api"
+  master_password    = "api"
 }
